@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="fontsize_1" format="dimension"></attr>
+    <attr name="fontsize_2" format="dimension"></attr>
+    <attr name="fontsize_3" format="dimension"></attr>
+
+<!--    <attr name="fontsize_1" format="dimension">16sp</attr>
+    <attr name="fontsize_2" format="dimension">18sp</attr>
+    <attr name="fontsize_3" format="dimension">20sp</attr>
+    <attr name="fontsize_4" format="dimension">22sp</attr>
+    <attr name="fontsize_5" format="dimension">24sp</attr>
+    <attr name="fontsize_6" format="dimension">26sp</attr>
+    <attr name="fontsize_7" format="dimension">28sp</attr>
+    <attr name="fontsize_8" format="dimension">30sp</attr>-->
+</resources>

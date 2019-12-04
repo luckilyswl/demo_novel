@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page.FontActivity">
+
+    <TextView
+        android:id="@+id/mao_font"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#B4AFAF"
+        android:gravity="center"
+        android:text="mao 字体"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:id="@+id/fzlth_font"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#B4AFAF"
+        android:gravity="center"
+        android:text="fzlth 字体"
+        android:textAlignment="center" />
+
+    <RelativeLayout
+        android:layout_below="@id/fzlth_font"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative">
+
+        <SeekBar
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:max="40"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:id="@+id/change_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="首先，我们需要让Application实现ActivityLifecycleCallbacks接口，并注册ActivityLifecycleCallbacks以便监控所有Activity，并维护一个Activity列表。在onActivityCreated方法中我们可以监控每个Activity的创建，当新建一个Activity时，获取其Resource资源，进而判断Configuration.fontScale数值是否与我们自己的fontScale数值(默认1.0，即大小没有经过调整)相等，若数值不一致时，修改之。其实，只要我们通过一个Activity修改了Configuration.fontScale数值，那么所有其他Activity再获取Configuration.fontScale数值时，其值均为我们修改过之后的数值。通过这一波操作，已经保证我们的应用的字体大小不随系统设置变化了"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

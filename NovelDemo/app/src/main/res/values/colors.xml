@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#009688</color>
+
+    <color name="textColorPrimary">#616161</color>
+    <color name="viewBackground">@android:color/white</color>
+    <color name="colorDayNightChange">@android:color/holo_orange_dark</color>
+
+    <color name="bg_color">#000000</color>
+    <color name="text_color">#ffffff</color>
+    <color name="red">#FF1744</color>
+    <color name="white">#ffffff</color>
+    <color name="font_line">#212121</color>
+    <color name="bg_white">#fff</color>
+
+</resources>
